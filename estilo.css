@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 97vh;
+    background: url(./img/Fundo.jpg);
+}
+
+.container{
+    text-align: center;
+    background-color: transparent;
+    height: 300px;
+    width: 400px;
+    border: 2px solid rgba(255, 255, 255, .2);;
+    border-radius: 20px;
+    color: aliceblue;
+    padding: 30px 40px;
+    /*sombreado do container*/
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    backdrop-filter: blur(10px);
+}
+
+.container h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.bloco{
+    position: relative;
+    width: 100%;
+    margin: 20px  0px;
+} 
+
+.bloco input{
+    background-color: transparent;
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: white;
+}
+
+.bloco input::placeholder{
+    color: aliceblue;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.bloco i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.lembrar-esqueci{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin: -10px 0 10px ;
+}
+
+.lembrar-esqueci label input{
+    accent-color: rgb(143, 189, 219);
+}
+
+.lembrar-esqueci a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.lembrar-esqueci a:hover{
+    text-decoration: underline;
+}
+.btn-login{
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgb(103, 153, 228);
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.btn-login:hover{
+    background-color: rgb(24, 24, 185);
+}
+.cadastrar{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.cadastrar a{
+    text-decoration: none;
+    font-weight: 600;
+    color: aliceblue;
+}
+.cadastrar a:hover{
+    text-decoration: underline;
+}
